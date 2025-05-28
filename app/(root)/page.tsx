@@ -9,7 +9,7 @@ const Home =() => (
 
     <BookList
     title = "Latest Books"
-    books = {sampleBooks}
+    books = {sampleBooks.slice(1)}
     containerClassName = "mt-28"
     />
     </>
